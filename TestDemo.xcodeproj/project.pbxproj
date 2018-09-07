@@ -35,6 +35,7 @@
 		3C42A9BF21428F3500AD2718 /* MJRefreshAutoFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C42A9A621428F3400AD2718 /* MJRefreshAutoFooter.m */; };
 		3C42A9C021428F3500AD2718 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C42A9A821428F3400AD2718 /* MJRefreshComponent.m */; };
 		3C42A9C121428F3500AD2718 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 3C42A9AB21428F3400AD2718 /* README.md */; };
+		3C42A9C42142955500AD2718 /* WKWebViewDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C42A9C32142955500AD2718 /* WKWebViewDemo.swift */; };
 		3C772076213E905D00A81FD3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C772075213E905D00A81FD3 /* AppDelegate.swift */; };
 		3C772078213E905D00A81FD3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C772077213E905D00A81FD3 /* ViewController.swift */; };
 		3C77207D213E905F00A81FD3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C77207C213E905F00A81FD3 /* Assets.xcassets */; };
@@ -137,6 +138,7 @@
 		3C42A9A921428F3400AD2718 /* MJRefreshFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshFooter.h; sourceTree = "<group>"; };
 		3C42A9AA21428F3400AD2718 /* MJRefreshBackFooter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MJRefreshBackFooter.h; sourceTree = "<group>"; };
 		3C42A9AB21428F3400AD2718 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		3C42A9C32142955500AD2718 /* WKWebViewDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WKWebViewDemo.swift; sourceTree = "<group>"; };
 		3C772072213E905D00A81FD3 /* TestDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C772075213E905D00A81FD3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3C772077213E905D00A81FD3 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -321,6 +323,14 @@
 			path = Base;
 			sourceTree = "<group>";
 		};
+		3C42A9C22142954900AD2718 /* WKWebView */ = {
+			isa = PBXGroup;
+			children = (
+				3C42A9C32142955500AD2718 /* WKWebViewDemo.swift */,
+			);
+			path = WKWebView;
+			sourceTree = "<group>";
+		};
 		3C772069213E905D00A81FD3 = {
 			isa = PBXGroup;
 			children = (
@@ -347,6 +357,7 @@
 			children = (
 				3C772075213E905D00A81FD3 /* AppDelegate.swift */,
 				3C772077213E905D00A81FD3 /* ViewController.swift */,
+				3C42A9C22142954900AD2718 /* WKWebView */,
 				3C42A97A21428F3400AD2718 /* MJRefresh */,
 				3C42A96E2142886C00AD2718 /* TGRefreshOC */,
 				3CA3700C213FE12F007E0AB3 /* Contacts */,
@@ -532,6 +543,7 @@
 				3C42A9B721428F3500AD2718 /* MJRefreshAutoGifFooter.m in Sources */,
 				3C42A9B621428F3500AD2718 /* MJRefreshAutoStateFooter.m in Sources */,
 				3C42A9572142111C00AD2718 /* PhotosDemo.swift in Sources */,
+				3C42A9C42142955500AD2718 /* WKWebViewDemo.swift in Sources */,
 				3CA3700E213FE14C007E0AB3 /* ContactsDemo.swift in Sources */,
 				3C42A9B921428F3500AD2718 /* MJRefreshNormalHeader.m in Sources */,
 				3CA37010213FE6B5007E0AB3 /* ContactsController.swift in Sources */,
