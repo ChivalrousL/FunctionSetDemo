@@ -29,9 +29,9 @@ class ViewController: UIViewController {
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "CustomCell")
-        tableView.mj_header = MJRefreshNormalHeader.init(refreshingBlock: {
+        let header = XYFHeader.init(refreshingTarget: self, refreshingAction: #selector(test))
+        tableView.mj_header = XYFHeader.init(refreshingBlock: {
             
-            tableView.mj_header.endRefreshing()
         })
         return tableView
     }()
@@ -48,6 +48,10 @@ class ViewController: UIViewController {
 }
 
 extension ViewController {
+    
+    @objc fileprivate func test() {
+        
+    }
     
     //MARK: -- 加载界面
     fileprivate func loadMainView() {

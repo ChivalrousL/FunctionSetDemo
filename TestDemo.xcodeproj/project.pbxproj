@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		3C2B0AC6214122D300A96F0C /* IAPDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B0AC5214122D300A96F0C /* IAPDemo.swift */; };
 		3C2B0AC92141248B00A96F0C /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C2B0AC82141248B00A96F0C /* StoreKit.framework */; };
+		3C2B462D2146A0F70075505B /* XYFHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C2B462C2146A0F70075505B /* XYFHeader.m */; };
 		3C42A9572142111C00AD2718 /* PhotosDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C42A9562142111C00AD2718 /* PhotosDemo.swift */; };
 		3C42A9752142886C00AD2718 /* UIScrollView+TGRefreshOC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C42A9702142886C00AD2718 /* UIScrollView+TGRefreshOC.m */; };
 		3C42A9762142886C00AD2718 /* TGRefreshOC.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 3C42A9712142886C00AD2718 /* TGRefreshOC.bundle */; };
@@ -88,6 +89,8 @@
 /* Begin PBXFileReference section */
 		3C2B0AC5214122D300A96F0C /* IAPDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPDemo.swift; sourceTree = "<group>"; };
 		3C2B0AC82141248B00A96F0C /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		3C2B462B2146A0F70075505B /* XYFHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XYFHeader.h; sourceTree = "<group>"; };
+		3C2B462C2146A0F70075505B /* XYFHeader.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XYFHeader.m; sourceTree = "<group>"; };
 		3C42A9562142111C00AD2718 /* PhotosDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosDemo.swift; sourceTree = "<group>"; };
 		3C42A96F2142886C00AD2718 /* TGRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGRefresh.h; sourceTree = "<group>"; };
 		3C42A9702142886C00AD2718 /* UIScrollView+TGRefreshOC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+TGRefreshOC.m"; sourceTree = "<group>"; };
@@ -302,6 +305,8 @@
 				3C42A99D21428F3400AD2718 /* MJRefreshNormalHeader.h */,
 				3C42A99E21428F3400AD2718 /* MJRefreshStateHeader.m */,
 				3C42A99F21428F3400AD2718 /* MJRefreshGifHeader.m */,
+				3C2B462B2146A0F70075505B /* XYFHeader.h */,
+				3C2B462C2146A0F70075505B /* XYFHeader.m */,
 			);
 			path = Header;
 			sourceTree = "<group>";
@@ -556,6 +561,7 @@
 				3C42A9B121428F3500AD2718 /* NSBundle+MJRefresh.m in Sources */,
 				3C772076213E905D00A81FD3 /* AppDelegate.swift in Sources */,
 				3C42A9B221428F3500AD2718 /* UIView+MJExtension.m in Sources */,
+				3C2B462D2146A0F70075505B /* XYFHeader.m in Sources */,
 				3C42A9BE21428F3500AD2718 /* MJRefreshBackFooter.m in Sources */,
 				3C42A9BA21428F3500AD2718 /* MJRefreshStateHeader.m in Sources */,
 				3C42A9BD21428F3500AD2718 /* MJRefreshHeader.m in Sources */,
