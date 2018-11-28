@@ -24,15 +24,11 @@ class ViewController: UIViewController {
     
     //MARK: -- lazy
     fileprivate lazy var tableView: UITableView = {
-        let tableView = UITableView.init(frame: CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height), style: .plain)
+        let tableView = UITableView.init(frame: CGRect.init(x: 0, y: -44, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.height), style: .plain)
         tableView.tableFooterView = UIView()
         tableView.delegate = self
         tableView.dataSource = self
         tableView.register(UITableViewCell.self, forCellReuseIdentifier: "CustomCell")
-        let header = XYFHeader.init(refreshingTarget: self, refreshingAction: #selector(test))
-        tableView.mj_header = XYFHeader.init(refreshingBlock: {
-            
-        })
         return tableView
     }()
     
@@ -48,10 +44,6 @@ class ViewController: UIViewController {
 }
 
 extension ViewController {
-    
-    @objc fileprivate func test() {
-        
-    }
     
     //MARK: -- 加载界面
     fileprivate func loadMainView() {

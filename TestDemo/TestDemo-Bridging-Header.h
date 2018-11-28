@@ -10,7 +10,4 @@
 #define TestDemo_Bridging_Header_h
 
 
-#import "TGRefresh.h"
-#import "MJRefresh.h"
-
 #endif /* TestDemo_Bridging_Header_h */

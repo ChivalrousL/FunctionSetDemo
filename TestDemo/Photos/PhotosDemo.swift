@@ -22,6 +22,11 @@ class PhotosManager: NSObject {
 
 extension PhotosManager {
     
-    
+    //MARK: -- 算法演习
+    private func test() {
+        let aStr = "01"
+        let bStr = "0?1"
+        
+    }
     
 }
